@@ -1,0 +1,544 @@
+{
+ "_note": "SYNTHETIC SAMPLE DATA generated for offline demos and tests. Shaped like eBay Browse / Marketplace Insights API responses; these are not real listings or sales.",
+ "total": 25,
+ "limit": 200,
+ "itemSummaries": [
+  {
+   "itemId": "v1|SAMPLE-AE1-A004|0",
+   "title": "Canon AE-1 Program w/ FD 50mm f/1.8 New Seals",
+   "price": {
+    "value": "231.59",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-A011|0",
+   "title": "Canon AE-1 Program w/ FD 50mm f/1.8 New Seals",
+   "price": {
+    "value": "173.79",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "5.99",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-A006|0",
+   "title": "Canon AE-1 Program w/ FD 50mm f/1.8 New Seals",
+   "price": {
+    "value": "172.02",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-A007|0",
+   "title": "Canon AE1 Program 35mm Camera Tested Working",
+   "price": {
+    "value": "179.13",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "9.95",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-A013|0",
+   "title": "Canon AE-1 Program Film Camera Body + FD 50mm 1.8",
+   "price": {
+    "value": "197.95",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-A015|0",
+   "title": "Canon AE-1 Program 35mm SLR Film Camera w/ 50mm f1.8 Lens Tested",
+   "price": {
+    "value": "183.47",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "7.50",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-A003|0",
+   "title": "Canon AE-1 Program 35mm SLR Film Camera w/ 50mm f1.8 Lens Tested",
+   "price": {
+    "value": "191.65",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-A022|0",
+   "title": "Canon AE-1 Program 35mm SLR Film Camera w/ 50mm f1.8 Lens Tested",
+   "price": {
+    "value": "239.52",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-A012|0",
+   "title": "Canon AE-1 Program Film Camera Body + FD 50mm 1.8",
+   "price": {
+    "value": "207.50",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "5.99",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-A008|0",
+   "title": "Canon AE-1 Program w/ FD 50mm f/1.8 New Seals",
+   "price": {
+    "value": "220.34",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "7.50",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-A017|0",
+   "title": "Canon AE-1 Program w/ FD 50mm f/1.8 New Seals",
+   "price": {
+    "value": "175.46",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "9.95",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-A019|0",
+   "title": "Canon AE-1 Program Film Camera Body + FD 50mm 1.8",
+   "price": {
+    "value": "254.72",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "7.50",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-A001|0",
+   "title": "Canon AE-1 Program w/ FD 50mm f/1.8 New Seals",
+   "price": {
+    "value": "176.09",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "7.50",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-A014|0",
+   "title": "Canon AE-1 Program Film Camera Body + FD 50mm 1.8",
+   "price": {
+    "value": "244.36",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-A020|0",
+   "title": "Canon AE-1 Program w/ FD 50mm f/1.8 New Seals",
+   "price": {
+    "value": "157.54",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "5.99",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-A016|0",
+   "title": "Canon AE-1 Program w/ FD 50mm f/1.8 New Seals",
+   "price": {
+    "value": "231.96",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "7.50",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-X001|0",
+   "title": "Canon AE-1 Program Film Camera Body + FD 50mm 1.8",
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-A010|0",
+   "title": "Canon AE1 Program 35mm Camera Tested Working",
+   "price": {
+    "value": "195.05",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-J002|0",
+   "title": "Canon AE-1 Program manual only",
+   "price": {
+    "value": "9.00",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-A021|0",
+   "title": "Canon AE-1 Program Film Camera Body + FD 50mm 1.8",
+   "price": {
+    "value": "180.87",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "7.50",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-A002|0",
+   "title": "Canon AE-1 Program Film Camera Body + FD 50mm 1.8",
+   "price": {
+    "value": "181.92",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "9.95",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-A009|0",
+   "title": "Canon AE-1 Program w/ FD 50mm f/1.8 New Seals",
+   "price": {
+    "value": "155.70",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "7.50",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-A005|0",
+   "title": "Canon AE-1 Program 35mm SLR Film Camera w/ 50mm f1.8 Lens Tested",
+   "price": {
+    "value": "227.16",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "7.50",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-A018|0",
+   "title": "Canon AE1 Program 35mm Camera Tested Working",
+   "price": {
+    "value": "190.98",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "5.99",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-AE1-J001|0",
+   "title": "Canon AE-1 Program AS-IS shutter squeal for parts",
+   "price": {
+    "value": "60.00",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  }
+ ]
+}

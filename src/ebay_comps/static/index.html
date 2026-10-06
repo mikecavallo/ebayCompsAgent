@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>eBay Comps Agent</title>
+<style>
+ body{font:15px/1.45 system-ui,sans-serif;max-width:860px;margin:2rem auto;padding:0 1rem;
+      color:#1d232a;background:#f7f8fa}
+ h1{font-size:1.4rem;margin:0 0 .25rem} .muted{color:#5b6670}
+ form{display:flex;gap:.5rem;flex-wrap:wrap;margin:1rem 0}
+ input,select,button{font:inherit;padding:.5rem .6rem;border:1px solid #c9d0d6;border-radius:6px}
+ input[name=q]{flex:1;min-width:240px} button{background:#1d4ed8;color:#fff;border:0;cursor:pointer}
+ .card{background:#fff;border:1px solid #e1e5e9;border-radius:8px;padding:1rem;margin:.75rem 0}
+ .banner{background:#fff7e0;border-color:#f0d58a}
+ .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.75rem}
+ .big{font-size:1.5rem;font-weight:600} table{width:100%;border-collapse:collapse;font-size:14px}
+ td,th{text-align:left;padding:.3rem .4rem;border-bottom:1px solid #eef0f2}
+ td.num,th.num{text-align:right} .err{color:#b42318}
+</style></head><body>
+<h1>eBay Comps Agent</h1>
+<div class="muted">Comparable listings, outlier-robust stats, and an LLM pricing recommendation.</div>
+<form id="f">
+ <input name="q" placeholder="Item description" value="Nintendo Game Boy Color console" required>
+ <select name="condition"><option>any</option><option>used</option><option>new</option></select>
+ <button>Get comps</button>
+</form>
+<div id="out"></div>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const money = v => v == null ? "-" : Number(v).toFixed(2);
+function statRow(label, s, total) {
+  if (!s) return `<tr><td>${label}</td><td colspan="4" class="muted">no data</td></tr>`;
+  return `<tr><td>${label}</td><td class="num">${s.count}${total!=null?" of "+total:""}</td>
+   <td class="num">${money(s.median)}</td><td class="num">${money(s.p25)} - ${money(s.p75)}</td>
+   <td class="num">${money(s.min)} - ${money(s.max)}</td></tr>`;
+}
+async function run(e) {
+  if (e) e.preventDefault();
+  const params = new URLSearchParams(new FormData($("#f")));
+  $("#out").innerHTML = '<p class="muted">Working...</p>';
+  const r = await fetch("/api/comps?" + params);
+  const d = await r.json();
+  if (!r.ok) { $("#out").innerHTML = `<p class="err">${esc(d.detail)}</p>`; return; }
+  const st = d.stats, rec = d.recommendation;
+  $("#out").innerHTML = `
+  ${d.sample_data ? '<div class="card banner"><b>Sample data.</b> Bundled synthetic fixtures, not live eBay listings.</div>' : ""}
+  <div class="card"><div class="grid">
+   <div><div class="muted">List at</div><div class="big">${money(rec.recommended_price)}</div></div>
+   <div><div class="muted">Quick sale</div><div class="big">${money(rec.quick_sale_price)}</div></div>
+   <div><div class="muted">Range</div><div class="big">${money(rec.price_range_low)}-${money(rec.price_range_high)}</div></div>
+   <div><div class="muted">Confidence</div><div class="big">${esc(rec.confidence)}</div></div>
+  </div><p>${esc(rec.reasoning)}</p>
+  <ul>${rec.caveats.map(c => `<li class="muted">${esc(c)}</li>`).join("")}</ul>
+  <div class="muted">Source: ${esc(d.source)} &middot; Advisor: ${esc(d.llm)} &middot; ${esc(st.currency)}, ${esc(st.price_basis)}</div></div>
+  <div class="card"><table><tr><th></th><th class="num">n</th><th class="num">Median</th><th class="num">IQR</th><th class="num">Range</th></tr>
+   ${statRow("Sold", st.sold, st.sold_total)}${statRow("Active", st.active, st.active_total)}</table>
+   <p class="muted">Sell-through: ${st.sell_through==null ? "n/a (needs sold data)" : Math.round(st.sell_through*100)+"%"}
+   &middot; Removed ${st.removed.length} listings (keywords, missing prices, outliers)</p></div>
+  <div class="card"><table><tr><th>Status</th><th>Title</th><th class="num">Total</th></tr>
+   ${d.comps.slice(0, 12).map(c => `<tr><td>${esc(c.status)}</td><td>${esc(c.title)}</td><td class="num">${money((c.price||0)+(c.shipping||0))}</td></tr>`).join("")}
+  </table></div>`;
+}
+$("#f").addEventListener("submit", run);
+</script></body></html>
