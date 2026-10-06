@@ -1,0 +1,852 @@
+{
+ "_note": "SYNTHETIC SAMPLE DATA generated for offline demos and tests. Shaped like eBay Browse / Marketplace Insights API responses; these are not real listings or sales.",
+ "total": 39,
+ "limit": 200,
+ "itemSummaries": [
+  {
+   "itemId": "v1|SAMPLE-GBC-A025|0",
+   "title": "Game Boy Color Handheld Teal Tested",
+   "price": {
+    "value": "78.99",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-J004|0",
+   "title": "Replacement Shell for Game Boy Color clear purple",
+   "price": {
+    "value": "12.99",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A030|0",
+   "title": "Game Boy Color Berry CGB-001 Clean Screen",
+   "price": {
+    "value": "76.20",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A018|0",
+   "title": "Game Boy Color Handheld Teal Tested",
+   "price": {
+    "value": "101.02",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A005|0",
+   "title": "Nintendo Game Boy Color Dandelion Yellow Tested",
+   "price": {
+    "value": "74.75",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "7.50",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A034|0",
+   "title": "Nintendo Game Boy Color Console CGB-001 Tested Working",
+   "price": {
+    "value": "77.85",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "9.95",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A029|0",
+   "title": "Nintendo Game Boy Color Console CGB-001 Tested Working",
+   "price": {
+    "value": "69.77",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "5.99",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A023|0",
+   "title": "Game Boy Color Berry CGB-001 Clean Screen",
+   "price": {
+    "value": "77.98",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "9.95",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A031|0",
+   "title": "Game Boy Color Handheld Teal Tested",
+   "price": {
+    "value": "122.06",
+    "currency": "USD"
+   },
+   "condition": "New",
+   "conditionId": "1000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "9.95",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A010|0",
+   "title": "Nintendo Game Boy Color Console CGB-001 Tested Working",
+   "price": {
+    "value": "66.10",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "7.50",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A015|0",
+   "title": "Nintendo Game Boy Color Dandelion Yellow Tested",
+   "price": {
+    "value": "68.14",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A032|0",
+   "title": "Nintendo Gameboy Color Atomic Purple Console Works",
+   "price": {
+    "value": "60.93",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A022|0",
+   "title": "Nintendo Game Boy Color Dandelion Yellow Tested",
+   "price": {
+    "value": "78.31",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A016|0",
+   "title": "Game Boy Color Handheld Teal Tested",
+   "price": {
+    "value": "91.13",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "9.95",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A006|0",
+   "title": "Game Boy Color Handheld Teal Tested",
+   "price": {
+    "value": "67.26",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A021|0",
+   "title": "Game Boy Color Handheld Teal Tested",
+   "price": {
+    "value": "55.34",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "7.50",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A001|0",
+   "title": "Game Boy Color Handheld Teal Tested",
+   "price": {
+    "value": "86.91",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A027|0",
+   "title": "Nintendo Gameboy Color Atomic Purple Console Works",
+   "price": {
+    "value": "51.23",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "9.95",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-X001|0",
+   "title": "Game Boy Color Handheld Teal Tested",
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A009|0",
+   "title": "Nintendo Game Boy Color Dandelion Yellow Tested",
+   "price": {
+    "value": "62.33",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "7.50",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A033|0",
+   "title": "Game Boy Color Handheld Teal Tested",
+   "price": {
+    "value": "70.88",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "5.99",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A019|0",
+   "title": "Game Boy Color Handheld Teal Tested",
+   "price": {
+    "value": "81.98",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A013|0",
+   "title": "Nintendo Game Boy Color Console CGB-001 Tested Working",
+   "price": {
+    "value": "82.81",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A004|0",
+   "title": "Game Boy Color Handheld Teal Tested",
+   "price": {
+    "value": "79.17",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "9.95",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-J001|0",
+   "title": "Nintendo Game Boy Color FOR PARTS not working no power",
+   "price": {
+    "value": "22.00",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A020|0",
+   "title": "Nintendo Gameboy Color Atomic Purple Console Works",
+   "price": {
+    "value": "67.72",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "9.95",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A014|0",
+   "title": "Nintendo Gameboy Color Atomic Purple Console Works",
+   "price": {
+    "value": "46.60",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "7.50",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A011|0",
+   "title": "Nintendo Game Boy Color Dandelion Yellow Tested",
+   "price": {
+    "value": "85.51",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "5.99",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A026|0",
+   "title": "Nintendo Game Boy Color Dandelion Yellow Tested",
+   "price": {
+    "value": "56.36",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "7.50",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A024|0",
+   "title": "Nintendo Game Boy Color Dandelion Yellow Tested",
+   "price": {
+    "value": "66.57",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-J002|0",
+   "title": "Game Boy Color Lot of 3 consoles + 10 games",
+   "price": {
+    "value": "340.00",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A028|0",
+   "title": "Nintendo Game Boy Color Console CGB-001 Tested Working",
+   "price": {
+    "value": "103.02",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A007|0",
+   "title": "Nintendo Game Boy Color Console CGB-001 Tested Working",
+   "price": {
+    "value": "74.76",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "5.99",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A003|0",
+   "title": "Nintendo Game Boy Color Dandelion Yellow Tested",
+   "price": {
+    "value": "82.98",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-J003|0",
+   "title": "Game Boy Color BOX ONLY no console",
+   "price": {
+    "value": "35.00",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A012|0",
+   "title": "Nintendo Game Boy Color Console CGB-001 Tested Working",
+   "price": {
+    "value": "64.79",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A017|0",
+   "title": "Game Boy Color Handheld Teal Tested",
+   "price": {
+    "value": "54.07",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "9.95",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A008|0",
+   "title": "Nintendo Gameboy Color Atomic Purple Console Works",
+   "price": {
+    "value": "83.59",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "0.00",
+      "currency": "USD"
+     }
+    }
+   ]
+  },
+  {
+   "itemId": "v1|SAMPLE-GBC-A002|0",
+   "title": "Nintendo Game Boy Color Console CGB-001 Tested Working",
+   "price": {
+    "value": "79.58",
+    "currency": "USD"
+   },
+   "condition": "Used",
+   "conditionId": "3000",
+   "buyingOptions": [
+    "FIXED_PRICE"
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "9.95",
+      "currency": "USD"
+     }
+    }
+   ]
+  }
+ ]
+}

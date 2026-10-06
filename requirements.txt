@@ -1,0 +1,9 @@
+# Runtime dependencies (mirrors pyproject.toml). Prefer: pip install -e ".[openai,airtable,web]"
+httpx>=0.27
+pydantic>=2.6
+anthropic>=1.11
+# Optional extras
+openai>=1.40
+pyairtable>=2.3
+fastapi>=0.110
+uvicorn>=0.29
