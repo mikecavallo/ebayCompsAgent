@@ -39,7 +39,14 @@ def render_text(report: CompsReport, show_comps: int = 8) -> str:
             key = r.reason.split(":")[0]
             reasons[key] = reasons.get(key, 0) + 1
         summary = ", ".join(f"{n} {k}" for k, n in sorted(reasons.items()))
-        out.append(f"  Removed {len(st.removed)} listings: {summary}")
+        out.append(
+            textwrap.fill(
+                f"Removed {len(st.removed)} listings: {summary}",
+                88,
+                initial_indent="  ",
+                subsequent_indent="    ",
+            )
+        )
     out.append("")
     out.append("Recommendation")
     out.append(f"  List at:     {rec.recommended_price:.2f}")
